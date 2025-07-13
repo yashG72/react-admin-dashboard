@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* react-calendar style fix */
+.react-calendar {
+  width: 100%;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.react-calendar__tile--active {
+  background-color: #3b82f6 !important; /* Tailwind blue-500 */
+  color: white;
+}
